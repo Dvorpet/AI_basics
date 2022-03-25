@@ -4,8 +4,12 @@
     "responses": ["Hi, how can I help you?","Hey, what's going on?"]
     },
     {"tag": "weather",
-    "patterns": ["What is the weather", "How is it outside"],
-    "responses": ["It's cold", "It's hot"]
+    "patterns": ["What is the weather", "How is it outside", "Is it raining outside"],
+    "responses": ["It's cold", "It's hot", "I don't know I'm only a chatbot"]
+    },
+    {"tag": "name",
+        "patterns": ["What is your name", "How are you called", "Do you have a name"],
+        "responses": ["I'm Chatbot", "Chad", "Just call me CB"]
     },
     {"tag": "greeting",
     "patterns": ["Goodbye", "See you"],

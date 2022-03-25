@@ -1,0 +1,14 @@
+{"conversation": [
+    {"tag": "greetings",
+    "patterns": ["Hello", "Hi", "Hey", "How are you doing", "What's up"],
+    "responses": ["Hi, how can I help you?","Hey, what's going on?"]
+    },
+    {"tag": "weather",
+    "patterns": ["What is the weather", "How is it outside"],
+    "responses": ["It's cold", "It's hot"]
+    },
+    {"tag": "greeting",
+    "patterns": ["Goodbye", "See you"],
+    "responses": ["Sad to see you go :(", "Looking forward to see you again"]
+    }
+]}

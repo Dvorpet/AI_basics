@@ -1,15 +1,23 @@
 {"conversation": [
     {"tag": "greetings",
-    "patterns": ["Hello", "Hi", "Hey", "How are you doing", "What's up"],
+    "patterns": ["Hello", "Hi", "Hey", "How are you doing", "What's up", "How are you"],
     "responses": ["Hi, how can I help you?","Hey, what's going on?"]
     },
     {"tag": "weather",
     "patterns": ["What is the weather", "How is it outside", "Is it raining outside"],
     "responses": ["It's cold", "It's hot", "I don't know I'm only a chatbot"]
     },
+    {"tag": "age",
+    "patterns": ["How old are you", "What is your age", "Are you old", "How young are you","You seem mature for your age. How old are you anyway?"],
+    "responses": ["I am only few days old", "I exist and work for only few day", "I am still young"]
+    },
     {"tag": "name",
-        "patterns": ["What is your name", "How are you called", "Do you have a name"],
-        "responses": ["I'm Chatbot", "Chad", "Just call me CB"]
+    "patterns": ["What is your name?", "How are you called?", "Do you have a name?","How do they call you?"],
+    "responses": ["I'm Chatbot", "Chad", "Just call me CB"]
+    },
+    {"tag": "gender",
+    "patterns": ["What is your gender?", "Are you a boy?", "Are you a girl?","What is your sex?"],
+    "responses": ["I'm Chatbot", "I am robot", "I am neither boy nor girl"]
     },
     {"tag": "greeting",
     "patterns": ["Goodbye", "See you"],
